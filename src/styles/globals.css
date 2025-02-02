@@ -1,0 +1,36 @@
+@import 'tailwindcss/base';
+@import './base.css';
+
+@import 'tailwindcss/components';
+@import './components/globals.css';
+@import './components/pokemon-base.css';
+@import './components/pokemon-card.css';
+@import './components/pokemon-detail.css';
+@import './components/pokemon-evolution.css';
+
+@import 'tailwindcss/utilities';
+
+
+#_sidebar::-webkit-scrollbar,
+#_nav-inner::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+
+#_sidebar::-webkit-scrollbar-track,
+#_sidebar::-webkit-scrollbar-thumb,
+#_nav-inner::-webkit-scrollbar-track,
+#_nav-inner::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+
+#_sidebar {
+  scrollbar-width: none; 
+}
+
+#_nav-inner {
+  scrollbar-width: none; 
+}
+
